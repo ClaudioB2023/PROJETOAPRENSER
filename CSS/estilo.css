@@ -1,0 +1,115 @@
+:root{
+    --primary-color: #fed001;
+}
+
+html{
+    /*font-size: 62.5%;
+    font-family: 'inter', sanserif;
+    font-weight: 400;*/
+    font: 400 62.5% 'Inter', san-serif;
+}
+
+p, 
+a{ /*formatanto parágrafos e links*/
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+
+h3{
+    font-size: 3.2rem;
+}
+
+nav a{
+    color: inherit;
+}
+
+.upper{
+    text-transform:uppercase;
+}
+
+.btn{/*conceito de classe aplicado ao botão saiba mais*/
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+}
+
+.wrapperContainer{
+    padding-top: 1px;
+}
+
+.wrapperContainer-dark{
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer{
+    padding-top: 1px;
+
+}
+
+
+.wrapperContainer-light{
+    background-color: #fafafa;
+}
+
+.wrapperContainer-dark2{
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.container {
+    max-width: 127.6rem; /*1.6 equivale a 1px na tela / medida relativa a pixels na tela*/
+    margin: auto; 
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav a{
+    padding: .75em 1.15em;/*1 em equivale a 16px*/
+    border: solid 1px;
+    text-decoration: none;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.header_nav a:hover{
+    background-color: black;
+}
+
+.wrapperContainer-hero{/*no css uma função inicia com abertura e fechamento de parêntese*/
+    background-image: linear-gradient(transparent, rgb(255, 255, 86));
+}
+
+.heroBanner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.hero_title{
+    margin-bottom: 4rem;
+
+}

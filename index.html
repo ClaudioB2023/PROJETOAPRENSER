@@ -16,7 +16,7 @@
     </head>
 
 <body>
-    <div class="wrapperContainer wrapperContainer-dark">
+    <div class="wrapperContainer wrapperContainer-dark wrapperContainer-fixed">
         <header class="header container">
             <image src="imagens/logoAprenser.png" alt="Aprenser" ></image>
 
@@ -34,17 +34,16 @@
     <div class="wrapperContainer wrapperContainer-hero">
         <section class="container heroBanner">
             <div class=" header_content">
-            <h1 class="hero_title">O saber é o que transforma nosso <span class="upper">ser</span> </h1>
-            <a href="#" class="btn">Saiba Mais</a>
+                <h1 class="hero_title">O saber é o que transforma nosso <span class="upper">ser</span> </h1>
+                <a href="#" class="btn">Saiba Mais</a>
             </div>
             <img src="imagens/HeroImage.png" alt="Mulher segurando flores">
         </section>
     </div>
 
-    <div class="wrapperContainer wrapperContainer-light">
-
-        <section id="cursos" class="cursos container">
-            <h2> Principais Cursos</h2>
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="cursos" >
+        <section class="cursos container">
+            <h2 class="section_title"> Principais Cursos</h2>
             <div class="cursosContainer">
 
                 <article class="curso_card">
@@ -70,34 +69,35 @@
                         <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de dados e aprenderá como funciona o protocolo HTTP na prática.</p>
                     </div>
                 </article>
-                <a href="#" class= "btn"> "Ver mais Cursos"</a>
             </div>
-
+            <a href="#" class= "btn section_btn"> "Ver mais Cursos"</a>
         </section>
-
     </div>
-    <div class="wrapperContainer wrapperContainner-dark2">
-        <section class="containner" id = "escola">
+    <div class="wrapperContainer wrapperContainer-dark2 wrapperContainer-padded" id = "escola">
+        <section class="containner escola" >
             <img src="imagens/nossa-escola.png" alt="Mulher Jovem Feliz">
-            <h2>Nossa Escola</h2>
-            <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
+            <div class="escola_content">
+                <h2 class="escola_title">Nossa Escola</h2>
+                <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.</p>
+            </div>
         </section>
     </div>
 
-    <div class="wrapperContainer wrapperContainer-light">
-        <section class="container" id="contatos">
-            <h2>Contatos</h2>
-            <img src="imagens/map.png" alt=""><!--imagem foi removida?-->
-            <iframe src="https://bis2bis.com.br/" frameborder="0" width="100%" height="525" style="border: 0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-dowgrade"></iframe>
-            <address>
+    <div class="wrapperContainer wrapperContainer-light wrapperContainer-padded" id="contatos">
+        <section class="container" >
+            <h2 class="section_title">Contatos</h2>
+
+            <!--<img src="imagens/map.png" alt="">imagem foi removida, esta logo abaixo pois indexar com a bis2bis não foi possivel. Alguns sites não oferecem essa opção.-->
+            <iframe src="imagens/map.png" frameborder="0" width="100%" height="525" style="border: 0;" allowfullscreen=""" loading="lazy" referrerpolicy="no-referrer-when-dowgrade"></iframe>
+            <address class="contatos_address">
                 Av. da Liberdade, 1001<br>
                 Tel.: +351 21 123 456<br>
                 E-mail: contato@aprenser.com</address>
         </section>
     </div>
-    <div class="wrapperContainer wrapperContainer-dark">
-        <footer>Desenvolvido por Cláudio Leite <a href="https:/serliv.com">Serliv</a></footer>
 
+    <div class="wrapperContainer wrapperContainer-dark">
+        <footer class="footer">Desenvolvido por Cláudio Leite <a href="https:/serliv.com">Serliv</a></footer>
     </div>
 </body>
 </html>

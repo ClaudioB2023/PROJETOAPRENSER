@@ -1,9 +1,7 @@
 # 🚀 Projeto Aprenser
-h2 Desenvolvimento de uma página com link direcionado.
-h2 Aplicação de conceitos Normalize.css
-h2 Aplicação de conceitos de Reset.CSS
+Desenvolvimento de uma página com link direcionado. Aplicação de conceitos normalize.css, e conceitos de reset.CSS
 
 ## 🔧 Trabalhando com:
  
-h2 "Div's, Classes, Article, Parágrafo, Fonts do Google, Imagens, Padding, Responsividade".
+Div's, Classes, Article, Parágrafo, Fonts do Google, Imagens, Padding, Responsividade, Padding, Nav, Footer.
 
